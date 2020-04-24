@@ -1,0 +1,14 @@
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color:grey;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+.full {
+    background-color: tomato;
+}
+.empty{
+    background-color: turquoise;
+}

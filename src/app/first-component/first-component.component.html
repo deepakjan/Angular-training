@@ -1,0 +1,12 @@
+<p>{{myson | uppercase }}</p>
+
+
+<h2>People in my family are {{courses.length}}</h2>
+<li *ngFor= "let list of courses" >{{list}}</li>
+<button (click)=onClick($event) class="btn btn-danger" [class.active]="isActive" [style.color]="isActive ? 'blue' : 'pink' ">hi there</button>
+
+<br/>
+
+<input type="text" [(ngModel)]="myson" (keyup.enter)="nameValue()"/>
+<br/>
+<app-like [circleClick]="color"></app-like>
